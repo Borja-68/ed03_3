@@ -67,6 +67,6 @@ public class Main {
     public static double calcularImpuestos(double total) {
         final double IMPUESTO = 0.21; // Impuesto del 21%
         // Error lógico: no se aplica correctamente el cálculo
-        return total + IMPUESTO; // Debe devolver total + impuestos
+        return total +(total * IMPUESTO); // Debe devolver total + impuestos
     }
 }
